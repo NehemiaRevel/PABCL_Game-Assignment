@@ -1,0 +1,488 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1672051460516916, "dur":3165, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051460520093, "dur":599, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1672051460520715, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1672051460520752, "dur":365, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1672051460521164, "dur":1329, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051460522493, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051461280569, "dur":66, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051461280635, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051461280664, "dur":51, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051461280715, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051461280731, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051461280734, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051461280745, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051461280747, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051461280759, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051461280786, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051461280811, "dur":4056, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1672051460521503, "dur":1008, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460522515, "dur":7667, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460530205, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672051460530207, "dur":516, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460530733, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672051460530740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460532689, "dur":3709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672051460536402, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1672051460536584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460536673, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1672051460539588, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1672051460539922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460540014, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1672051460542092, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1672051460542278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460543667, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1672051460545228, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1672051460545645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460545659, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1672051460547762, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460548089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460548155, "dur":22447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460570660, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460570835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460570912, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460572692, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460573119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460573133, "dur":3100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460576296, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460576456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460576470, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460578774, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460579068, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460579090, "dur":3336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460582481, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460582819, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460582895, "dur":5763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460588706, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460588846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460588860, "dur":3977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460592894, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460593055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460593068, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460595446, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460595597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460595609, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460598155, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460598299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460598312, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460599747, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460599972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460599985, "dur":4990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460605024, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460605155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460605168, "dur":2684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460607929, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460608081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460608095, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460611146, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460611288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460611302, "dur":3839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460615200, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460615349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460615363, "dur":4070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460619507, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460619706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460619721, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460621470, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460621595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460621607, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460623685, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460623814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460623827, "dur":4542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460628424, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460628547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460628559, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460630807, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460631218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460631230, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460633411, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460633538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460633550, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460636084, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460636227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460636237, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460638398, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460638528, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460638546, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460640262, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460640384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460640396, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460642260, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460642391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460642403, "dur":5157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460647620, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460647753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460647766, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460649132, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460649258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460649269, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460650775, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460650922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460650933, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460653156, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460653290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460653303, "dur":3039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460656394, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460656515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460656526, "dur":22385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460678955, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460679054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460679064, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460680544, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460680684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460680696, "dur":45568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460726315, "dur":253281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460979605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051460979620, "dur":2859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051460982533, "dur":149366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051461131904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461131916, "dur":4252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051461136218, "dur":74496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051461210719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461210728, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051461214509, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051461214601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461214610, "dur":14033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051461228729, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051461228868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461228880, "dur":22041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672051461250991, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672051461251047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461251059, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672051461252697, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672051461252750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461252762, "dur":5055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672051461257896, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672051461257966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461257980, "dur":8517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672051461266554, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672051461266604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461266616, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672051461268368, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672051461268422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461268433, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672051461269563, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672051461269625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461269635, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672051461271276, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1672051461271332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461271343, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1672051461272512, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1672051461272560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461272597, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1672051461274027, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1672051461274176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672051461274186, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1672051461275469, "dur":5105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672051460521720, "dur":801, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672051460522522, "dur":7673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672051460530205, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1672051460530560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672051460533413, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1672051460536722, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1672051460536860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672051460536878, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1672051460540025, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1672051460540165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672051460540177, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1672051460542901, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1672051460543069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672051460543491, "dur":2121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1672051460545663, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1672051460546109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672051460546121, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1672051460548744, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672051460549099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672051460549109, "dur":135516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672051460684679, "dur":210527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672051460895214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672051460895227, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672051460896949, "dur":380943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672051461277900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672051461277914, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672051461280425, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1672051461280427, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460521951, "dur":578, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460522529, "dur":7667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460530204, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1672051460530394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460533431, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1672051460537109, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1672051460537242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460537253, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1672051460540605, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1672051460540740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460540753, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1672051460543395, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1672051460543819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460543832, "dur":3785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1672051460547670, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051460547812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460548070, "dur":4645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051460552786, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game.exe" }}
+,{ "pid":12345, "tid":3, "ts":1672051460552855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460552870, "dur":5173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game.exe" }}
+,{ "pid":12345, "tid":3, "ts":1672051460558108, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1672051460558469, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460558907, "dur":21528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1672051460580494, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051460580648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460580660, "dur":7251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051460587968, "dur":2749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051460590725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460590741, "dur":13974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051460604772, "dur":375802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051460980611, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460980624, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051460982418, "dur":8708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051460991135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051460991150, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051460993890, "dur":103799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461097696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461097709, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461098912, "dur":32323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461131242, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461131256, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461133035, "dur":1674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461134717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461134731, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461136262, "dur":1744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461138013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461138026, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461139137, "dur":57910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461197052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461197063, "dur":3462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461201033, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461201168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461201180, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461203097, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461203223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461203235, "dur":3286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461206574, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461206683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461206693, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461209937, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461210053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461210065, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461211448, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461211556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461211566, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461213888, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461213983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461213992, "dur":18212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461232259, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461232412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461232425, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461235878, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461236062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461236075, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461237779, "dur":870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461238654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461238664, "dur":27498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672051461266219, "dur":3960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1672051461270184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461270194, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1672051461271635, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1672051461271688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461271698, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1672051461272960, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1672051461273012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672051461273021, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1672051461274498, "dur":6074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460521999, "dur":536, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460522536, "dur":7661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460530205, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1672051460530397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460533580, "dur":3802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1672051460537435, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1672051460537601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460538160, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1672051460540441, "dur":574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1672051460541020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460541031, "dur":2514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1672051460543613, "dur":635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1672051460544253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460544266, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1672051460547076, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1672051460547394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460547407, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1672051460550469, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1672051460550771, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460550788, "dur":11967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1672051460562836, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460563033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460563261, "dur":13220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460576536, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460576680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460576691, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460579673, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460579806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460579819, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460582446, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460582620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460582636, "dur":4659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460587354, "dur":1940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460589299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460589310, "dur":4271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460593634, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460593750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460593761, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460595673, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460595793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460595803, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460598606, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460598718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460598728, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460600229, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460600429, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460600443, "dur":13043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460613539, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460613881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460613989, "dur":4008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460618049, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460618224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460618238, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460620273, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460620398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460620410, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460622104, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460622301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460622313, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460624991, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460625117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460625129, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460626763, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460626968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460626981, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460628538, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460628673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460628684, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460631140, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460631256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460631267, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460633753, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460633888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460633899, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460635754, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460635922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460635935, "dur":2610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460638595, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460638700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460638710, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460640726, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460640874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460640885, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460642742, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460642880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460642891, "dur":5049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460648014, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460648127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460648136, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460649533, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460649642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460649651, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460651251, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460651555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460651567, "dur":4073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460655703, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460655868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460655883, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460657718, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460657902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460657914, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460660215, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460660352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460660364, "dur":5199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460665618, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460665762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460665775, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460667630, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460667764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460667777, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460669940, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460670101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460670114, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460673639, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460673769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460673782, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460676542, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460676870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460676883, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460678887, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460679016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460679028, "dur":3357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460682439, "dur":161217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460843664, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460843683, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460845249, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460845309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460845322, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460846839, "dur":139118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460985965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051460985981, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051460987339, "dur":74347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461061694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461061708, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461063714, "dur":1246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461064966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461064979, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461066168, "dur":103087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461169262, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461169275, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461170510, "dur":21892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461192409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461192450, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461194416, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461194534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461194545, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461196125, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461196242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461196253, "dur":9313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461205620, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461205736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461205748, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461208225, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461208341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461208352, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461210145, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461210267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461210276, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461211527, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461211615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461211623, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461213771, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461213886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461213897, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461217478, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461217630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461217650, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461219742, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461219866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461219892, "dur":14228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461234179, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461234246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461234259, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461237780, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461237940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461237952, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461240314, "dur":1725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461242051, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461242068, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672051461243642, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1672051461243964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461244407, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1672051461245491, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1672051461245540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461245613, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1672051461247243, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1672051461247293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461247303, "dur":11450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1672051461258808, "dur":618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1672051461259432, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461259445, "dur":14401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1672051461273898, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1672051461273951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672051461273961, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lenovo/Documents/Codelabs UNIKOM/Game/Codelabs Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1672051461275187, "dur":5284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672051461287109, "dur":3972, "ph":"X", "name": "ProfilerWriteOutput" }
+,
